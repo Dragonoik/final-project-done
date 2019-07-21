@@ -1,0 +1,50 @@
+.main{
+	display: flex;
+	justify-content: center;
+}
+
+.specialists{
+	background-color: #bbbbf7;
+	width: 60%;
+	height: auto;
+}
+
+li{
+	text-decoration: underline;
+}
+
+.doctor{
+	width: 342px;
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	margin: 30px 0 0 30px;
+}
+
+table{
+	border-collapse: collapse;
+	border: 1px solid #000;
+	margin: 0 30px 0 30px;
+}
+
+tr:nth-child(2n+1){
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+tr{
+	border-top: 1px solid #000;
+}
+
+td, th{
+	border-right: 1px solid #000;
+}
+
+@media(max-width: 992px){
+	.specialists{
+		width: 100%;
+	}
+}

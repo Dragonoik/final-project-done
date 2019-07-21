@@ -1,0 +1,29 @@
+.main{
+	display: flex;
+	justify-content: center;
+}
+
+.reception{
+	width: 60%;
+	height: auto;
+	background-color: #bbbbf7;
+	padding-bottom: 30px;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	margin: 30px 0 0 30px;
+}
+
+p a{
+	text-decoration: underline;
+}
+
+@media(max-width: 992px){
+	.reception{
+		width: 100%;
+	}
+}

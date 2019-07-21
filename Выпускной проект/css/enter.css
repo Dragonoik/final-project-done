@@ -1,0 +1,31 @@
+.main{
+	display: flex;
+	justify-content: center;
+}
+
+.enter-window{
+	width: 40%;
+	background-color: #bbbbf7;
+	padding: 0 0 30px 30px;
+}
+
+.registration{
+	color: blue;
+}
+
+@media(max-width: 992px){
+	.enter-window{
+		width: 60%;
+	}
+}
+
+@media(max-width: 768px){
+	.enter-window{
+		width: 100%;
+		height: 2000px;
+	}
+
+	body{
+		overflow-y: hidden;
+	}
+}
